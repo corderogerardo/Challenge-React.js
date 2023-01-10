@@ -7,6 +7,7 @@
     "app": "npm start -w web",
     "server": "npm start -w server"
   },
+  "private": "true",
   "repository": "git@condor:rgCondor/Challenge-React.js.git",
   "author": "Rafael González",
   "license": "MIT",
