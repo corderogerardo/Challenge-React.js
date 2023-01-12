@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/gerardocordero/.nvm/versions/node/v16.18.1/bin/node /Users/gerardocordero/.yarn/bin/yarn.js build
+
+PATH: 
+  /Users/gerardocordero/.nvm/versions/node/v16.18.1/bin:/Users/gerardocordero/.yarn/bin:/Users/gerardocordero/.config/yarn/global/node_modules/.bin:/Users/gerardocordero/.meteor:/Users/gerardocordero/.gem/ruby/3.2.22/bin:/Users/gerardocordero/.gem/ruby/2.6.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/opt/icu4c/sbin:/opt/homebrew/opt/icu4c/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/gerardocordero/Library/Android/sdk/emulator:/Users/gerardocordero/Library/Android/sdk/tools:/Users/gerardocordero/Library/Android/sdk/tools/bin:/Users/gerardocordero/Library/Android/sdk/platform-tools:/opt/gradle/gradle-7.3.3/bin≈
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/gerardocordero/projects/Challenge-React.js/web/package.json: Unexpected token } in JSON at position 399
+      at JSON.parse (<anonymous>)
+      at /Users/gerardocordero/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/gerardocordero/.yarn/lib/cli.js:310:30)
+      at /Users/gerardocordero/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "web",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "npm run build && parcel ./index.html",
+      "build": "parcel build ./index.html"
+    },
+    "repository": "git@condor:rgCondor/Challenge-React.js.git",
+    "author": "Rafael González",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.2.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.6.2",
+    },
+    "devDependencies": {
+      "parcel": "^2.2.1",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.2.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
