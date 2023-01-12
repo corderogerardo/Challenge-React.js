@@ -9,6 +9,6 @@
   "author": "Rafael González",
   "license": "MIT",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.1"
   }
 }
